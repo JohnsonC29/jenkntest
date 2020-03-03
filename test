@@ -1,1 +1,13 @@
 testing
+0d95d573c31c47d1ae55ec599659ab32
+
+4913a7d0b56334d9be75c6f1c9b9a7999fc894b2
+bbe4b44cb3c3dccb5fb5424b72e1e8c007ff6af0
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=test-hello \
+  -Dsonar.host.url=http://18.141.142.235:9000/sonar \
+  -Dsonar.login=bbe4b44cb3c3dccb5fb5424b72e1e8c007ff6af0
+  
+  
+  nevin.cleetus@gmail.com
